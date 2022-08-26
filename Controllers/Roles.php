@@ -46,7 +46,7 @@ class Roles extends Controllers
 				// 	$arrData[$i]['status'] = '<span class="badge badge-danger">Inactivo</span>';
 				// }
 
-				if ($_SESSION['permisosMod']['r']) { gtg
+				if ($_SESSION['permisosMod']['r']) {
 					$btnView = '<button class="btn btn-info btn-sm" onClick="fntViewInfo(' . $arrData[$i]['idn2'] . ')" title="Ver categoría"><i class="far fa-eye"></i></button>';
 				}
 				if ($_SESSION['permisosMod']['u']) {
